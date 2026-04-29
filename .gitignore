@@ -141,3 +141,21 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Security (아이디, 비밀번호 파일)
+.env
+.env.local
+*.env
+*.json
+!package.json
+!package-lock.json
+
+Thumbs.db
